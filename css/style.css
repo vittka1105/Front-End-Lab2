@@ -1,0 +1,123 @@
+/*position*/
+.outer-circle {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.white-circle{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+}
+.circle-1{
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.circle-2{
+    left: 35px;
+    top: -15px;
+}
+.circle-3{
+    left: 75px;
+}
+.circle-4{
+    top: 35px;
+    left: -15px;
+}
+.circle-5{
+    right: -15px;
+    top: 35px;
+}
+.circle-6{
+    bottom: 0;
+}
+.circle-7{
+    left: 35px;
+    bottom: -15px;
+}
+.circle-8{
+    left: 75px;
+    bottom: 0;
+}
+
+
+/*transform*/
+
+.inner-circle {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.small-circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.small-circle {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.small-circle:nth-child(1) {
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.small-circle:nth-child(2) {
+    top: 0;
+    right: 15%;
+    transform: translateX(50%);
+}
+
+.small-circle:nth-child(3) {
+    bottom: 0;
+    left: 15%;
+    transform: translateX(-50%);
+}
+
+.small-circle:nth-child(4) {
+    bottom: 0;
+    right: 15%;
+    transform: translateX(50%);
+}
+
+.small-circle:nth-child(5) {
+    top: 50%;
+    left: -15%;
+    transform: translateY(-50%);
+}
+
+.small-circle:nth-child(6) {
+    top: 50%;
+    right: -15%;
+    transform: translateY(-50%);
+}
+
+.small-circle:nth-child(7) {
+    left: 50%;
+    bottom: -15%;
+    transform: translateX(-50%);
+}
+

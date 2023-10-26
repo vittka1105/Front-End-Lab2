@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        table{
+            border-collapse: separate;
+            border-spacing: 0;
+            border: 1px solid #000000;
+        }
+        td{
+            border: 1px solid #000000;
+        }
+        .row1{
+            background-color: #208f8f;
+            height: 30px;
+            font-size: 20px;
+
+        }
+        .tr1:hover .row1{
+            background-color: #f5f520;
+        }
+        .row2{
+            background-color: #f5f520;
+            height: 30px;
+            font-size: 15px;
+        }
+        .tr2:hover .row2{
+            background-color: #208f8f;
+        }
+        .row1:nth-child(1),
+        .row1:nth-child(2){
+            width: 70px;
+        }
+        .row1:nth-child(3),
+        .row1:nth-child(4),
+        .row1:nth-child(5){
+            width: 150px;
+        }
+        .row3{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tbody>
+    <tr class="tr1">
+        <td class="row1"></td>
+        <td class="row1"></td>
+        <td class="row1" rowspan="2">Лупітько</td>
+        <td class="row1">Вікторія</td>
+        <td class="row1" rowspan="2">Олександрівна</td>
+    </tr>
+    <tr class="tr2">
+        <td class="row2" colspan="2">ІК-11</td>
+        <td class="row2">ЛР-2 Варіант 20</td>
+    </tr>
+    <tr>
+        <td class="row3" colspan="2"></td>
+        <td class="row3" colspan="3"></td>
+
+
+    </tr>
+    </tbody>
+</table>
+
+<div class="outer-circle">
+    <div class="inner-circle"></div>
+    <div class="small-circles">
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+    </div>
+</div>
+    <div class="outer-circle">
+        <div class="white-circle"></div>
+        <div class="white-circle circle-1"></div>
+        <div class="white-circle circle-2"></div>
+        <div class="white-circle circle-3"></div>
+        <div class="white-circle circle-4"></div>
+        <div class="white-circle circle-5"></div>
+        <div class="white-circle circle-6"></div>
+        <div class="white-circle circle-7"></div>
+        <div class="white-circle circle-8"></div>
+    </div>
+</body>
+</html>
